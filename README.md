@@ -1,5 +1,6 @@
 # 🚚 Supply Chain Transformation: DC Capacity Optimization
 
+
 ## 📖 Executive Summary
 This project addresses a strategic bottleneck in a distribution network consisting of **1 Factory, 1 Distribution Center (DC), and 5 Regional Clients**. Using **Linear Programming (GLPK Solver)**, I developed a decision-support tool to analyze the financial feasibility of expanding DC capacity. The goal is to minimize total freight costs while calculating ROI and the optimal investment point.
 
@@ -56,4 +57,4 @@ Based on the mathematical optimization, the strategic recommendation is:
 
 ---
 
-### 🔗 [Live Demo: Access the Optimization Dashboard Here](COLE_SEU_LINK_AQUI)
+### 🔗 [Live Demo: Access the Optimization Dashboard Here](https://logistics-optimizer-bruno.streamlit.app/)
