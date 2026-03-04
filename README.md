@@ -10,17 +10,17 @@ This project addresses a strategic bottleneck in a distribution network consisti
 To understand the optimization, here is the baseline operational data. The model seeks the cheapest path while respecting these demands and costs:
 
 ### 1. Daily Demand per Client
-* **Client A:** 80 tons
-* **Client B:** 120 tons
-* **Client C:** 60 tons
-* **Client D:** 70 tons
-* **Client E:** 90 tons
+* **Client A:** 100 tons
+* **Client B:** 180 tons
+* **Client C:** 80 tons
+* **Client D:** 120 tons
+* **Client E:** 70 tons
 
 ### 2. Freight Cost Matrix ($/ton)
 | From \ To | Client A | Client B | Client C | Client D | Client E |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Factory** | $85 | $110 | $150 | $120 | $180 |
-| **DC (Regional)** | $40 | $65 | $90 | $75 | $110 |
+| **Factory** | $35 | $60 | $20 | $65 | $115 |
+| **DC (Regional)** | $25 | $20 | $60 | $20 | $50 |
 
 > **Strategic Note:** The DC freight rates are lower due to **Scale Economics**. Bulk transfers from the Factory to the DC are done via high-capacity trucks (lower cost per ton), while the DC handles the "Last Mile" regional delivery.
 
