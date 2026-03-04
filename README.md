@@ -22,7 +22,7 @@ To understand the optimization, here is the baseline operational data. The model
 | **Factory** | $35 | $60 | $20 | $65 | $115 |
 | **DC (Regional)** | $25 | $20 | $60 | $20 | $50 |
 
-> **Strategic Note:** The DC freight rates are lower due to **Scale Economics**. Bulk transfers from the Factory to the DC are done via high-capacity trucks (lower cost per ton), while the DC handles the "Last Mile" regional delivery.
+> **Strategic Note:** Some DC freight rates are lower due to **Scale Economics**. Bulk transfers from the Factory to the DC are done via high-capacity trucks (lower cost per ton), while the DC handles the "Last Mile" regional delivery.
 
 ---
 
